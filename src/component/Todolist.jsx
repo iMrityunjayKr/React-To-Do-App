@@ -11,6 +11,7 @@ function Todolist({ todo, handleDelete, handleComplete }) {
               onClick={() => handleComplete(task.id)}
               style={{
                 textDecoration: task.completed ? "line-through" : "none",
+                 opacity: 0.7;
               }}
             >
               {task.text}
