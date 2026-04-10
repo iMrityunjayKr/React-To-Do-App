@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import "./App.css";
-import Heading from "./component/heading";
+import Heading from "./component/Heading";
 import TaskInput from "./component/TaskInput";
 import Todolist from "./component/Todolist";
 
